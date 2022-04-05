@@ -1,0 +1,88 @@
+main{
+    flex-grow: 1;
+    display: flex;
+    font-family: 'Mulish', sans-serif;
+}
+.content-container{
+    gap:20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-container h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 8rem;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    line-height: 5rem;
+    color:white;
+}
+
+.content-container h1 span{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.social-container ul{
+    height: 100%;
+    width: 48px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    gap:20px;
+}
+
+
+
+.social-container li{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: all .7s;
+}
+.social-container li:hover{
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.social-container i{
+    font-size: 1.5rem;
+
+}
+
+.movie-title{
+    font-size: 3rem;
+    color: var(--accent-color);
+    font-weight: 200;
+}
+
+
+.movie-text{
+    width: 570px;
+    font-size: 1.1rem;
+    color: white;
+    font-family:  'Mulish', sans-serif;;
+   
+}
+
+.button{
+    height: 80px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 50;
+    font-family: 'Mulish', sans-serif;
+    
+}
+
